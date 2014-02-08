@@ -1,7 +1,7 @@
 gulp-intercept
 ==============
 
-> Gulp plugin to intercept a Gulp stream.
+> A plugin to intercept a stream when using the [Gulp.js](http://gulpjs.com/) streaming build system..
 
 The plugin accepts a function with a single argument - a `chunk` or `file`. Do whatever you need to eg. parse the file if its json, convert it if less or coffeescript or simply perform an update to its contents. 
 
