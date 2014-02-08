@@ -26,7 +26,7 @@
     "update",
     "stream"
   ],
-  "author": "Nik Khilnani <nik@Khilnani.org>",
+  "author": "Nik Khilnani <nik@khilnani.org>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/khilnani/gulp-intercept/issues"
