@@ -1,11 +1,14 @@
 gulp-intercept
 ==============
 
-Gulp plugin to intercept a Gulp stream.
+> Gulp plugin to intercept a Gulp stream.
 
 The plugin accepts a function with a single argument - a `chunk` or `file`. Do whatever you need to eg. parse the file if its json, convert it if less or coffeescript or simply perform an update to its contents. 
 
-#### Usage
+### Usage
+
+- Install - `npm install gulp-intercept --save-dev`
+- Update your `gulpfile.js`:
 
 ```javascript
 var intercept = require('./gulp-intercept');
@@ -25,7 +28,11 @@ gulp.task('task', function () {
 });
 ```
 
-### Function Signature
+### API
+
+#### intercept( method )
+
+Type: `Function` method - Is a function that accepts a `File` and returns a `File`.
 
 ```javascript
 function ( file ) {
