@@ -1,0 +1,37 @@
+{
+  "name": "gulp-intercept",
+  "version": "0.1.0",
+  "description": "Intercept Gulp streams and take full control of the content.",
+  "main": "index.js",
+  "dependencies": {
+    "event-stream": "~3.0.18"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.15.1",
+    "gulp-util": "~2.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/khilnani/gulp-intercept.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "replace",
+    "intercept",
+    "swap",
+    "update",
+    "stream"
+  ],
+  "author": "Nik Khilnani <nik@Khilnani.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khilnani/gulp-intercept/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
